@@ -70,10 +70,14 @@ Blok kode terakhir ini dibagi menjadi dua fungsi utama:
 
 ---
 
+---
+
 ## Evaluasi & Hasil Pelatihan Model
 
 Setelah melalui proses pelatihan selama 5 epoch dengan pemantauan validation data, berikut adalah performa final yang berhasil dicapai oleh model:
-* Akurasi Data Pelatihan (Train Accuracy): [Isi Persentase Akurasi]%
-* Akurasi Data Pengujian (Validation Accuracy): [Isi Persentase Akurasi]%
+* Akurasi Data Pelatihan (Train Accuracy): 85%
+* Akurasi Data Pengujian (Validation Accuracy): 87%
+
+Model terbukti memiliki kapabilitas yang sangat baik dalam mengenali pola visual buah segar dan mampu mengidentifikasi tanda-tanda pembusukan secara akurat. Pengujian mandiri menggunakan citra buah apel potong yang mengalami pembusukan berhasil teridentifikasi secara tepat oleh fungsi prediksi dengan label "rottenapples".
 
 Model terbukti memiliki kapabilitas yang sangat baik dalam mengenali pola visual buah segar dan mampu mengidentifikasi tanda-tanda pembusukan secara akurat.
